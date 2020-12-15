@@ -1,0 +1,21 @@
+﻿<Window x:Class="BubbleVsQuickVisualization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BubbleVsQuickVisualization"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="White">
+        <Button Content="Run" Background="White" HorizontalAlignment="Left" Margin="30,302,0,0" VerticalAlignment="Top" Height="25" Width="72" Click="Button_Click"/>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="232" Margin="30,45,0,0" VerticalAlignment="Top" Width="345"
+               Background="BlueViolet" >
+        </Canvas>
+        <Canvas x:Name="canvas2" Height="232" Width="345" Margin="415,45,30,0" VerticalAlignment="Top"
+               Background="BlueViolet" />
+        <TextBox x:Name="sleep" HorizontalAlignment="Left" Height="25" Margin="120,302,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+        <!--<Button x:Name="bublePause" Content="Pause" Background="White" HorizontalAlignment="Left" Height="16" Margin="325,282,0,0" VerticalAlignment="Top" Width="50" Click="bublePause_Click"/>
+        <Button x:Name="quickPause" Content="Pause" Background="White" HorizontalAlignment="Left" Height="16" Margin="715,282,0,0" VerticalAlignment="Top" Width="50" Click="quickPause_Click"/>-->
+
+    </Grid>
+</Window>
